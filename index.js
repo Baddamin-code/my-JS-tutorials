@@ -20,3 +20,13 @@ console.log(myName)
 let yourName = prompt("What is your name?");
 alert("My name is " + myName + ", it's nice to know you, " + yourName + "!");
 
+// Reassigning values to variables
+let d = "3";
+let e = "8";
+let f = a;
+alert(d = e);
+alert(e = f);
+
+console.log("a is " + a);
+console.log("b is " + b);
+
