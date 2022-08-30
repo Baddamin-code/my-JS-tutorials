@@ -275,3 +275,10 @@ return payee + " is going to buy lunch today."
 }
 
 console.log(paidBy());
+
+// while loop
+let randomNum = 1;
+while (randomNum <= 20) {
+  console.log(randomNum);
+  randomNum++;
+}
