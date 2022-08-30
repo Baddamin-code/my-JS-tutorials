@@ -30,3 +30,16 @@ alert(e = f);
 console.log("a is " + a);
 console.log("b is " + b);
 
+// Character count prompt
+
+const tweet = "Compose your tweet";
+let tweetCount = tweet.length;
+prompt(tweet);
+alert(
+  "Your character count is " +
+    tweetCount +
+    ", you have" +
+    (140 - tweetCount) +
+    " characters left"
+);
+
