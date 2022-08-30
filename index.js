@@ -16,3 +16,7 @@ let lastName = "Raji";
 let myName = firstName + " " + lastName;
 console.log(myName)
 
+// creating prompt & alert functions
+let yourName = prompt("What is your name?");
+alert("My name is " + myName + ", it's nice to know you, " + yourName + "!");
+
