@@ -269,7 +269,6 @@ function result(num) {
 //   Random name selector
 let friends = ["Ade", "Ayo", "Bola", "Quadri", "Sanni", "Ibrahim", "Idris"]
 let payee = Math.round(Math.random() * friends.length)
-console.log(payee);
 function paidBy() {
   payee = friends[payee]
 return payee + " is going to buy lunch today."
