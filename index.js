@@ -118,3 +118,13 @@ var myArray = [["John", 45, "Mike"],[13, "Dog", 34]];
 myData[1] = "I am learning JavaScript";
 //console.log(myData[1])
 
+// Append data to the end of an array
+
+myData.push("Papaya", "CSS");
+console.log(myData)
+
+// remove (last) item from an array using pop() function
+let removedFromMyData = myData.pop();
+console.log(myData)
+console.log(removedFromMyData)
+
