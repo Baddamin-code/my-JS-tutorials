@@ -152,3 +152,44 @@ function sub(x, y) {
 }
 sub(20, 14);
 
+function result(num) {
+    return num * 5;
+  }
+  console.log(result(12));
+  
+  function getMilk(money) {
+    let change = money % 1.5;
+    console.log(
+      "buy " +
+        Math.floor(money / 1.5) +
+        " bottles of milk. " +
+        "You have " +
+        change +
+        " change left."
+    );
+    return change;
+  }
+  getMilk(5);
+  
+  // life in days, weeks and years
+  
+  function lifeInWeeks(age) {
+    let yearsRemaining = 90 - age;
+    let days = yearsRemaining * 365;
+    let weeks = yearsRemaining * 52;
+    let months = yearsRemaining * 12;
+    console.log(
+      "You have " +
+        days +
+        " days, " +
+        weeks +
+        " weeks, " +
+        months +
+        " months, and " +
+        yearsRemaining +
+        " years left."
+    );
+  }
+  
+  lifeInWeeks(23);
+  
