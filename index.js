@@ -102,3 +102,14 @@ console.log(quotes)
 var lastLetterOfMyStr = myStr[myStr.length - 1];
 console.log(lastLetterOfMyStr)
 
+//Arrays
+
+var myData = [20, 30, 40];
+var indexOne = myData[1];
+console.log(indexOne)
+
+//Nested Arrays
+
+var myArray = [["John", 45, "Mike"],[13, "Dog", 34]];
+//console.log(myArray[0][2])
+
