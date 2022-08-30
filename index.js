@@ -238,4 +238,13 @@ function result(num) {
   
   console.log(isLeap(3500));
   
+  //if....else statement +  Arrays
+  let guestList = ["Gbolahan", "Ola", "Ade", "Oyin", "Ilyas", "Quadri", "Raji"];
+  let guest = prompt("Enter your name, please.");
+  if (guestList.includes(guest)) {
+    alert("You are welcome, " + guest + "!");
+  } else {
+    alert("Sorry, you are not allowed entry!");
+  }
+  
   
