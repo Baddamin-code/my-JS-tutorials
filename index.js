@@ -128,3 +128,12 @@ let removedFromMyData = myData.pop();
 console.log(myData)
 console.log(removedFromMyData)
 
+// remove (first) element from array using shift()
+let ourArray = ["Al", 34, "mango", "aunty", ["pen", "game", 45], 50, "apple"];
+let removedFromOurArray = ourArray.shift();
+console.log(ourArray)
+
+//add an element in front of an array using unshift()
+ourArray.unshift("goat");
+console.log(ourArray)
+
