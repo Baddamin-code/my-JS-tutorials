@@ -192,4 +192,16 @@ function result(num) {
   }
   
   lifeInWeeks(23);
+  // BMI Calculator
+  function bmiCalculator(weight, height) {
+    let bmi = weight / Math.pow(height, 2);
+    return console.log("Your Body Mass Index (BMI) is " + bmi + "kg/m.");
+  }
+  
+  bmiCalculator(65, 1.8);
+  
+  // Generate random numbers
+  let n = Math.round(Math.random() * 6);
+  console.log(n);
+  
   
