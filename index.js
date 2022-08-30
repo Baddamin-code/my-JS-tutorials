@@ -113,3 +113,8 @@ console.log(indexOne)
 var myArray = [["John", 45, "Mike"],[13, "Dog", 34]];
 //console.log(myArray[0][2])
 
+// Modify arrays using bracket notation
+
+myData[1] = "I am learning JavaScript";
+//console.log(myData[1])
+
