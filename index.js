@@ -219,4 +219,23 @@ function result(num) {
       "%."
   );
   
+  // leap year challenge
+  function isLeap(year) {
+    if (year % 4 === 0) {
+      if (year % 100 === 0) {
+        if (year % 400 === 0) {
+          return year + " is a leap year.";
+        } else {
+          return year + " is a common year.";
+        }
+      } else {
+        return year + " is a leap year.";
+      }
+    } else {
+      return year + " is a common year.";
+    }
+  }
+  
+  console.log(isLeap(3500));
+  
   
