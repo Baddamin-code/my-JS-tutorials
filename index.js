@@ -80,3 +80,22 @@ console.log(myStr+=aNoun)
 //checking length of strings
 console.log(myStr.length)
 
+// Escape Sequences in string
+/****
+
+\'  Single Quote
+\" Double Quotes
+\\ back slash
+\n newline
+\r carriage return
+\t tab
+\b backspace
+\f form feed
+
+ ****/
+
+// escape character
+let quotes = 'He said "I am leaving."';
+console.log(quotes)
+
+
