@@ -98,4 +98,7 @@ console.log(myStr.length)
 let quotes = 'He said "I am leaving."';
 console.log(quotes)
 
+//Getting the last character in a string
+var lastLetterOfMyStr = myStr[myStr.length - 1];
+console.log(lastLetterOfMyStr)
 
