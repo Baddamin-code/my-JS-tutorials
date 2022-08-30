@@ -137,3 +137,18 @@ console.log(ourArray)
 ourArray.unshift("goat");
 console.log(ourArray)
 
+// functions
+
+function calc() {
+    console.log(add * minus)
+}
+calc();
+
+//function with arguments
+// Functions taking in parameter/input
+
+function sub(x, y) {
+    console.log(x - y)
+}
+sub(20, 14);
+
