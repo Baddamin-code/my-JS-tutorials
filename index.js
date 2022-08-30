@@ -44,8 +44,20 @@ alert(
 );
 
 // Slicing strings
-var tweet = prompt("Compose your tweet:");
 var charLimit = tweet.slice(0, 140);
 alert(charLimit);
 charLimit.length;
+
+// Operators
+
+let minus = 45 - 34;
+let add = 45 + 34;
+let div = 45 / 5;
+let xply = 45 * 34;
+var modulo = 15 % 4;
+console.log(minus)
+console.log(add)
+console.log(div)
+console.log(xply)
+console.log(modulo)
 
