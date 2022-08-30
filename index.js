@@ -204,4 +204,19 @@ function result(num) {
   let n = Math.round(Math.random() * 6);
   console.log(n);
   
+  // Love Calculator
+  let name1 = prompt("Input girl's name");
+  let name2 = prompt("Input boy's name");
+  let numberGenerator = Math.floor(Math.random() * 100 + 1);
+  alert("Calculating.....");
+  alert(
+    "The chance of a relationship working out between " +
+      name1 +
+      " and " +
+      name2 +
+      " is " +
+      numberGenerator +
+      "%."
+  );
+  
   
