@@ -61,3 +61,19 @@ console.log(div)
 console.log(xply)
 console.log(modulo)
 
+//appending
+let x = 20;
+let y = 30;
+let z = 10;
+
+x += 15;
+y -= 12;
+z *= 5;
+console.log(x)
+console.log(y)
+console.log(z)
+
+let aNoun = "teacher.";
+let myStr = "He was a good ";
+console.log(myStr+=aNoun)
+
