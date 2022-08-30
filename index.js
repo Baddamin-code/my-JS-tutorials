@@ -77,3 +77,6 @@ let aNoun = "teacher.";
 let myStr = "He was a good ";
 console.log(myStr+=aNoun)
 
+//checking length of strings
+console.log(myStr.length)
+
