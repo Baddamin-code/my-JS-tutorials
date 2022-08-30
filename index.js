@@ -43,3 +43,9 @@ alert(
     " characters left"
 );
 
+// Slicing strings
+var tweet = prompt("Compose your tweet:");
+var charLimit = tweet.slice(0, 140);
+alert(charLimit);
+charLimit.length;
+
