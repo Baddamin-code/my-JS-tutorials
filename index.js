@@ -297,3 +297,13 @@ console.log( " " + bottleWord + " of beer on the wall.")
 }
 
 
+// bottleWord lyrics challenge using for loop
+for (let i = numberOfBottles; i < 100 && i > 0; i--) {
+  let bottleWord = "bottles";
+    if (numberOfBottles === 1) {
+        bottleWord = "bottle";
+    }
+console.log(numberOfBottles + " " + bottleWord + " of beer on the wall, " + numberOfBottles + " " + bottleWord + " of beer." + " Take one down and pass it around, " + (numberOfBottles - 1));
+numberOfBottles--;
+console.log( " " + bottleWord + " of beer on the wall.")
+}
