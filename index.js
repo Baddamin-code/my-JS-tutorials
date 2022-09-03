@@ -324,3 +324,10 @@ function fibonacciGenerator(n) {
   }
   
   console.log(fibonacciGenerator(10));
+
+  // Manipulating the DOM
+
+  let head = document.getElementsByTagName('h1');
+head[1].innerText = "Goodbye";
+head[1].style.backgroundColor = 'red';
+head[1].classList.add('huge');
