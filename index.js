@@ -331,3 +331,6 @@ function fibonacciGenerator(n) {
 head[1].innerText = "Goodbye";
 head[1].style.backgroundColor = 'red';
 head[1].classList.add('huge');
+
+// add a new class to html element
+document.querySelector("h2").classList.add("sub-head")
